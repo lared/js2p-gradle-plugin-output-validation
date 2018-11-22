@@ -1,8 +1,8 @@
 # Reproduction steps
 
-0. `./gradlew clean -Dorg.gradle.warning.mode=all`
-0. `./gradlew generateJsonSchema2Pojo -Dorg.gradle.warning.mode=all`
-0. `./gradlew generateJsonSchema2Pojo -Dorg.gradle.warning.mode=all`
+0. ./gradlew clean -Dorg.gradle.warning.mode=all
+0. ./gradlew generateJsonSchema2Pojo -Dorg.gradle.warning.mode=all
+0. ./gradlew generateJsonSchema2Pojo -Dorg.gradle.warning.mode=all
 
 The last step should produce the following warning during configuration:
 ```
